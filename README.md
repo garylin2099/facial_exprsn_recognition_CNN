@@ -3,14 +3,14 @@ Deep CNN implemented with Keras to recognize seven types of human facial express
 ### Dataset: FER2013
 48 by 48 pixel grayscale images of faces. Seven expressions: 0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutra). The training set, public test set, and the private test set consist of 28,709, 3,589, and 3,589 examples, respectively. https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
-![image example](/images/eg_img.png)
+![image example](/img/eg_img.png)
 
 ### Architecture
 Lighter but faster VGG19 structure with fewer than original filters at each layer. We also add batch normalization and dropout layer to the VGG19 structure.
 
-![CNN architecture](/images/archtct.png)
+![CNN architecture](/img/archtct.png)
 
 ### Prediction
 Overall test accuracy: 58.6%. From the confusion matrix, we see that our model yields 75%+ for happiness and surprise, whereas has hard time recognizing disgust.
 
-![confusion matrix](/images/cm.png)
+![confusion matrix](/img/cm.png)
