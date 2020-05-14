@@ -6,7 +6,7 @@ Deep CNN implemented with Keras to recognize seven types of human facial express
 ![image example](/img/eg_img.png)
 
 ### Architecture
-Lighter but faster VGG19 structure with fewer than original filters at each layer. We also add batch normalization and dropout layer to the VGG19 structure.
+Lighter but faster VGG19 structure. We also add batch normalization and dropout layer to the VGG19 structure to improve the performance.
 
 ![CNN architecture](/img/archtct.png)
 
